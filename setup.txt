@@ -1,0 +1,21 @@
+For the connection on various kinects with one machine, each machine has it´s own name:
+1- god. Runs the roscore and main process
+2- Gatherer. Obtains all the data
+3- kinect1. 
+4- kinect2.
+5- 
+
+god:
+ssh god
+roscore
+
+gatherer:
+ssh gatherer
+rosrun 
+
+kinect1:
+ssh kinect1
+export ROS_MASTER_URI=http://god:11311
+//rosrun kinect_node kinect_node >& /dev/null &
+//roslaunch openni_launch openni.launch
+
