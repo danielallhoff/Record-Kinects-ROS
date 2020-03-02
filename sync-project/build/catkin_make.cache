@@ -1,0 +1,2 @@
+gatherer
+-DCATKIN_DEVEL_PREFIX=/ros_sync/Synthetic-Pipeline/sync-project/devel -DCMAKE_INSTALL_PREFIX=/ros_sync/Synthetic-Pipeline/sync-project/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/ros_sync/Synthetic-Pipeline/sync-project/install
+
+Name: gatherer
+Description: Description of gatherer
+Version: 0.0.0
+Cflags: 
+Libs: -L/ros_sync/Synthetic-Pipeline/sync-project/install/lib 
+Requires: 
