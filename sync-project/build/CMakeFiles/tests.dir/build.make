@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ros_sync/Synthetic-Pipeline/sync-project/src
+CMAKE_SOURCE_DIR = /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ros_sync/Synthetic-Pipeline/sync-project/build
+CMAKE_BINARY_DIR = /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /ros_sync/Synthetic-Pipeline/sync-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ros_sync/Synthetic-Pipeline/sync-project/src /ros_sync/Synthetic-Pipeline/sync-project/src /ros_sync/Synthetic-Pipeline/sync-project/build /ros_sync/Synthetic-Pipeline/sync-project/build /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

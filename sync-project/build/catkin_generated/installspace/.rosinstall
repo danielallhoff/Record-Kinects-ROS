@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /ros_sync/Synthetic-Pipeline/sync-project/install/setup.sh
+    local-name: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/setup.sh

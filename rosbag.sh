@@ -1,4 +1,4 @@
-if [-z "$1"]
+if [ -z "$1" ]
     then
         echo "Empty args: name_bag_file"
         exit 1

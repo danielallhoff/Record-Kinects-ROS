@@ -1,8 +1,8 @@
-# Install script for directory: /ros_sync/Synthetic-Pipeline/sync-project/src
+# Install script for directory: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ros_sync/Synthetic-Pipeline/sync-project/install")
+  set(CMAKE_INSTALL_PREFIX "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,80 +44,89 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ros_sync/Synthetic-Pipeline/sync-project/install/_setup_util.py")
+   "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ros_sync/Synthetic-Pipeline/sync-project/install" TYPE PROGRAM FILES "/ros_sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install" TYPE PROGRAM FILES "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ros_sync/Synthetic-Pipeline/sync-project/install/env.sh")
+   "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ros_sync/Synthetic-Pipeline/sync-project/install" TYPE PROGRAM FILES "/ros_sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install" TYPE PROGRAM FILES "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ros_sync/Synthetic-Pipeline/sync-project/install/setup.bash")
+   "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/setup.bash;/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ros_sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES "/ros_sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES
+    "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/setup.bash"
+    "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/local_setup.bash"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ros_sync/Synthetic-Pipeline/sync-project/install/setup.sh")
+   "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/setup.sh;/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ros_sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES "/ros_sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES
+    "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/setup.sh"
+    "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/local_setup.sh"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ros_sync/Synthetic-Pipeline/sync-project/install/setup.zsh")
+   "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/setup.zsh;/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ros_sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES "/ros_sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES
+    "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/setup.zsh"
+    "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/local_setup.zsh"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ros_sync/Synthetic-Pipeline/sync-project/install/.rosinstall")
+   "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ros_sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES "/ros_sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install" TYPE FILE FILES "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ros_sync/Synthetic-Pipeline/sync-project/build/gtest/cmake_install.cmake")
-  include("/ros_sync/Synthetic-Pipeline/sync-project/build/gatherer/cmake_install.cmake")
+  include("/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/gtest/cmake_install.cmake")
+  include("/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/cmake_install.cmake")
 
 endif()
 
@@ -129,5 +138,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/ros_sync/Synthetic-Pipeline/sync-project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

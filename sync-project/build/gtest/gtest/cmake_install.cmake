@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ros_sync/Synthetic-Pipeline/sync-project/install")
+  set(CMAKE_INSTALL_PREFIX "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -7,8 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/ros_sync/Synthetic-Pipeline/sync-project/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/ros_sync/Synthetic-Pipeline/sync-project/devel/lib:$LD_LIBRARY_PATH"
-export PWD="/ros_sync/Synthetic-Pipeline/sync-project/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/ros_sync/Synthetic-Pipeline/sync-project/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/ros_sync/Synthetic-Pipeline/sync-project/src:$ROS_PACKAGE_PATH"
+export PWD="/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build"

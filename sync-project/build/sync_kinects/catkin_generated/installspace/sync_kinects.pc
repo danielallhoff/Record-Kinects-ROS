@@ -1,0 +1,8 @@
+prefix=/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/install
+
+Name: sync_kinects
+Description: Description of sync_kinects
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

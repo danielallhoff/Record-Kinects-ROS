@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ros_sync/Synthetic-Pipeline/sync-project/src
+CMAKE_SOURCE_DIR = /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ros_sync/Synthetic-Pipeline/sync-project/build
+CMAKE_BINARY_DIR = /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /ros_sync/Synthetic-Pipeline/sync-project/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /ros_sync/Synthetic-Pipeline/sync-project/build/test_results
+	/usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /ros_sync/Synthetic-Pipeline/sync-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ros_sync/Synthetic-Pipeline/sync-project/src /ros_sync/Synthetic-Pipeline/sync-project/src /ros_sync/Synthetic-Pipeline/sync-project/build /ros_sync/Synthetic-Pipeline/sync-project/build /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,75 +23,75 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a21b2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a21b2.dir/build.make CMakeFiles/cmTC_a21b2.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a21b2.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a21b2.dir/testCCompiler.c.o   -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a21b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a21b2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a21b2.dir/testCCompiler.c.o  -o cmTC_a21b2 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_70758/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70758.dir/build.make CMakeFiles/cmTC_70758.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70758.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_70758.dir/testCCompiler.c.o   -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_70758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70758.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_70758.dir/testCCompiler.c.o  -o cmTC_70758 -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_93051/fast"
-/usr/bin/make -f CMakeFiles/cmTC_93051.dir/build.make CMakeFiles/cmTC_93051.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_93051
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93051.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o  -o cmTC_93051 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_66ce1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66ce1.dir/build.make CMakeFiles/cmTC_66ce1.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_66ce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ce1.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o  -o cmTC_66ce1 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:./:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93051' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFVoteP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_93051 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L. -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66ce1' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4KEfIe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_66ce1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_93051/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_93051.dir/build.make CMakeFiles/cmTC_93051.dir/build]
-  ignore line: [make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_93051]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93051.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o  -o cmTC_93051 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_66ce1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_66ce1.dir/build.make CMakeFiles/cmTC_66ce1.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_66ce1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ce1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o  -o cmTC_66ce1 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:./:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93051' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFVoteP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_93051 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L. -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66ce1' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4KEfIe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_66ce1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccFVoteP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4KEfIe.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_93051] ==> ignore
+    arg [cmTC_66ce1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -120,10 +120,8 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
-    arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_93051.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_66ce1.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -146,27 +144,26 @@ Parsed C implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/cuda/lib64/stubs] ==> [/usr/local/cuda/lib64/stubs]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda/lib64/stubs]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a7e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a7e4.dir/build.make CMakeFiles/cmTC_1a7e4.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a7e4.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1a7e4.dir/feature_tests.c.o   -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1a7e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a7e4.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1a7e4.dir/feature_tests.c.o  -o cmTC_1a7e4 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_42496/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42496.dir/build.make CMakeFiles/cmTC_42496.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42496.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_42496.dir/feature_tests.c.o   -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_42496
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42496.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_42496.dir/feature_tests.c.o  -o cmTC_42496 -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +173,17 @@ make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMak
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01266/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01266.dir/build.make CMakeFiles/cmTC_01266.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_01266.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_01266.dir/feature_tests.c.o   -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_01266
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01266.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_01266.dir/feature_tests.c.o  -o cmTC_01266 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b482b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b482b.dir/build.make CMakeFiles/cmTC_b482b.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b482b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b482b.dir/feature_tests.c.o   -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b482b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b482b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b482b.dir/feature_tests.c.o  -o cmTC_b482b -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -196,17 +193,17 @@ make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMak
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf647/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf647.dir/build.make CMakeFiles/cmTC_bf647.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf647.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_bf647.dir/feature_tests.c.o   -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bf647
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf647.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bf647.dir/feature_tests.c.o  -o cmTC_bf647 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d06d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d06d8.dir/build.make CMakeFiles/cmTC_d06d8.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d06d8.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_d06d8.dir/feature_tests.c.o   -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d06d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d06d8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d06d8.dir/feature_tests.c.o  -o cmTC_d06d8 -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -214,72 +211,72 @@ make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMak
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a6a4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a6a4.dir/build.make CMakeFiles/cmTC_9a6a4.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9a6a4.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_9a6a4.dir/testCXXCompiler.cxx.o -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9a6a4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6a4.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_9a6a4.dir/testCXXCompiler.cxx.o  -o cmTC_9a6a4 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_80df4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80df4.dir/build.make CMakeFiles/cmTC_80df4.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80df4.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_80df4.dir/testCXXCompiler.cxx.o -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_80df4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80df4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_80df4.dir/testCXXCompiler.cxx.o  -o cmTC_80df4 -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2bdc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2bdc.dir/build.make CMakeFiles/cmTC_f2bdc.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f2bdc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2bdc.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2bdc -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_801c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_801c2.dir/build.make CMakeFiles/cmTC_801c2.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_801c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_801c2.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_801c2 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:./:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2bdc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccITEaKd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f2bdc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L. -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_801c2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx0DCTz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_801c2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f2bdc/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f2bdc.dir/build.make CMakeFiles/cmTC_f2bdc.dir/build]
-  ignore line: [make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f2bdc]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2bdc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2bdc -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_801c2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_801c2.dir/build.make CMakeFiles/cmTC_801c2.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_801c2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_801c2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_801c2 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:./:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2bdc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccITEaKd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f2bdc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L. -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_801c2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx0DCTz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_801c2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccITEaKd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccx0DCTz.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -297,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f2bdc] ==> ignore
+    arg [cmTC_801c2] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -308,10 +305,8 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
-    arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_f2bdc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_801c2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -332,27 +327,26 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/cuda/lib64/stubs] ==> [/usr/local/cuda/lib64/stubs]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda/lib64/stubs]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d2ce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d2ce.dir/build.make CMakeFiles/cmTC_3d2ce.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3d2ce.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_3d2ce.dir/feature_tests.cxx.o -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3d2ce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d2ce.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3d2ce.dir/feature_tests.cxx.o  -o cmTC_3d2ce -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_81b33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81b33.dir/build.make CMakeFiles/cmTC_81b33.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81b33.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_81b33.dir/feature_tests.cxx.o -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_81b33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81b33.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_81b33.dir/feature_tests.cxx.o  -o cmTC_81b33 -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +409,17 @@ make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMak
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_80fdd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_80fdd.dir/build.make CMakeFiles/cmTC_80fdd.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_80fdd.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_80fdd.dir/feature_tests.cxx.o -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_80fdd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80fdd.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_80fdd.dir/feature_tests.cxx.o  -o cmTC_80fdd -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_92aec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92aec.dir/build.make CMakeFiles/cmTC_92aec.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92aec.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_92aec.dir/feature_tests.cxx.o -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_92aec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92aec.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_92aec.dir/feature_tests.cxx.o  -o cmTC_92aec -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -488,17 +482,17 @@ make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMak
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dd066/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dd066.dir/build.make CMakeFiles/cmTC_dd066.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dd066.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_dd066.dir/feature_tests.cxx.o -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_dd066
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd066.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_dd066.dir/feature_tests.cxx.o  -o cmTC_dd066 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2236e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2236e.dir/build.make CMakeFiles/cmTC_2236e.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2236e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_2236e.dir/feature_tests.cxx.o -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2236e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2236e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2236e.dir/feature_tests.cxx.o  -o cmTC_2236e -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -559,30 +553,30 @@ make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMak
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fe712/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fe712.dir/build.make CMakeFiles/cmTC_fe712.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fe712.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_fe712.dir/CheckIncludeFile.c.o   -c /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_fe712
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe712.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_fe712.dir/CheckIncludeFile.c.o  -o cmTC_fe712 -rdynamic 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_48357/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48357.dir/build.make CMakeFiles/cmTC_48357.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48357.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_48357.dir/CheckIncludeFile.c.o   -c /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48357.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_48357.dir/CheckIncludeFile.c.o  -o cmTC_48357 -rdynamic 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68820/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68820.dir/build.make CMakeFiles/cmTC_68820.dir/build
-make[1]: Entering directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_68820.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_68820.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_68820
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68820.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_68820.dir/CheckFunctionExists.c.o  -o cmTC_68820 -rdynamic -lpthread 
-make[1]: Leaving directory '/ros_sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a582a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a582a.dir/build.make CMakeFiles/cmTC_a582a.dir/build
+make[1]: Entering directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a582a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a582a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a582a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a582a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a582a.dir/CheckFunctionExists.c.o  -o cmTC_a582a -rdynamic -lpthread 
+make[1]: Leaving directory '/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/CMakeFiles/CMakeTmp'
 
 
