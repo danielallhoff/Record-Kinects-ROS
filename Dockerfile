@@ -77,5 +77,5 @@ RUN apt-get install -y ros-kinetic-diagnostic-updater --allow-unauthenticated
 #RUN apt-get purge -y librealsense2*
 
 #RUN apt-get install -y ros-kinetic-librealsense ros-kinetic-realsense-camera
-RUN echo 'source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+#RUN echo 'source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+#source ~/.bashrc

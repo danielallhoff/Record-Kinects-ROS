@@ -9,21 +9,26 @@ using namespace std;
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
-int frames_images = 0;
-int frames_depth = 0;
+
 cv_bridge::CvImagePtr cv_ptr;
+ros::Publisher kinect1_pub_image = n.advertise<Image>("kinect1_image", 1000);
+ros::Publisher kinect2_pub_image = n.advertise<Image>("kinect2_image", 1000);
+ros::Publisher kinect3_pub_image = n.advertise<Image>("kinect3_image", 1000);
+
+ros::Publisher kinect1_pub_depth = n.advertise<Image>("kinect1_depth", 1000);
+ros::Publisher kinect2_pub_depth = n.advertise<Image>("kinect2_depth", 1000);
+ros::Publisher kinect3_pub_depth = n.advertise<Image>("kinect3_depth", 1000);
+
 void callback(const ImageConstPtr& kinect1,const ImageConstPtr& kinect2,const ImageConstPtr& kinect3){
-    save_image(kinect1,"../kinect1/images/" + frames_images + ".png");
-    save_image(kinect2,"../kinect2/images/"+ frames_images + ".png");
-    save_image(kinect3,"../kinect3/images/"+ frames_images + ".png");
-    frames_images += 1;
+    kinect1_pub_image.publish(kinect1)
+    kinect2_pub_image.publish(kinect2)
+    kinect3_pub_image.publish(kinect3)
 }
 
 void callback_depth(const ImageConstPtr& kinect1,const ImageConstPtr& kinect2,const ImageConstPtr& kinect3){
-    save_image(kinect1,"../kinect1/depth/"+ frames_depth + ".png");
-    save_image(kinect2,"../kinect2/depth/"+ frames_depth + ".png");
-    save_image(kinect3,"../kinect3/depth/"+ frames_depth + ".png");
-    frames_depth += 1;
+    kinect1_pub_depth.publish(kinect1)
+    kinect2_pub_depth.publish(kinect2)
+    kinect3_pub_depth.publish(kinect3)
 }
 
 void save_image(const ImageConstPtr& image,const String& path){
@@ -47,18 +52,19 @@ int main(int argc, char **argv){
     message_filters::Subscriber<Image> kinect2(n, "/kinect2/rgb/image",1);
     message_filters::Subscriber<Image> kinect3(n, "/kinect3/rgb/image",1);
 
-    TimeSynchronizer<Image,Image,Image> sync(kinect1,kinect2,kinect3,10);
+    TimeSynchronizer<Image,Image,Image> sync(kinect1,kinect2,kinect3,1000);
     sync.registerCallback(boost::bind(&callback,_1,_2,_3));
 
     message_filters::Subscriber<Image> kinect1_d(n, "/kinect1/depth/image",1);
     message_filters::Subscriber<Image> kinect2_d(n, "/kinect2/depth/image",1);
     message_filters::Subscriber<Image> kinect3_d(n, "/kinect3/depth/image",1);
+
     /*
     typedef sync_policies::ApproximateTime<Image, Image, Image> MySyncPolicy;
     // ApproximateTime takes a queue size as its constructor argument, hence MySyncPolicy(10)
     Synchronizer<MySyncPolicy> sync(MySyncPolicy(10), kinect1, kinect2,kinect3);
     */
-    TimeSynchronizer<Image,Image,Image> sync(kinect1,kinect2,kinect3,10);
+    TimeSynchronizer<Image,Image,Image> sync(kinect1,kinect2,kinect3,1000);
     sync.registerCallback(boost::bind(&callback_depth,_1,_2,_3));
     ros::spin();
 

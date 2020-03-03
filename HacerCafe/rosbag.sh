@@ -1,0 +1,1 @@
+rosbag record -O subset kinect1_image kinect2_image kinect3_image kinect1_depth kinect2_depth kinect3_depth
