@@ -74,7 +74,12 @@ RUN apt-get update
 
 RUN apt-get install -y ros-kinetic-diagnostic-updater --allow-unauthenticated
 
-#RUN apt-get purge -y librealsense2*
+RUN apt-get install -y libfreenect-dev
+
+RUN apt-get install -y ros-kinetic-*openni* --allow-unauthenticated
+RUN apt-get install -y ros-kinetic-*freenect* --allow-unauthenticated
+
+#RUN apt-get purge -y librealsense2* 
 
 #RUN apt-get install -y ros-kinetic-librealsense ros-kinetic-realsense-camera
 #RUN echo 'source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
