@@ -15,6 +15,6 @@ docker run --rm -it \
         --env="DISPLAY" \
         --net=host \
         --name $containerName \
-        kinect/ros:latest bash -c "source /mnt/workspace/Synthetic-Pipeline/sync-project/devel/setup.bash &&  roslaunch freenect_launch freenect.launch"
+        kinect/ros:latest bash -c "source /mnt/workspace/Synthetic-Pipeline/sync-project/devel/setup.bash && export ROS_IP=172.19.33.191 && export ROS_MASTER_URI=http://172.16.34.141:11311 && roslaunch freenect_launch freenect.launch camera:=kinect1"
 
-#roslaunch openni2_launch openni2.launch"
+#roslaunch openni2_launch openni2.launch" in primesense case
