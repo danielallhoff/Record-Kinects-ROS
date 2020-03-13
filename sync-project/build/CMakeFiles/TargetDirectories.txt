@@ -34,7 +34,6 @@
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/test.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/install/local.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/install/strip.dir
-/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/kinect.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/std_msgs_generate_messages_py.dir
@@ -55,6 +54,7 @@
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/roscpp_generate_messages_lisp.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/std_msgs_generate_messages_eus.dir
+/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/a.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/sensor_msgs_generate_messages_cpp.dir

@@ -283,19 +283,6 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named kinect
-
-# Build rule for target.
-kinect: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kinect
-.PHONY : kinect
-
-# fast build rule for target.
-kinect/fast:
-	$(MAKE) -f sync_kinects/CMakeFiles/kinect.dir/build.make sync_kinects/CMakeFiles/kinect.dir/build
-.PHONY : kinect/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
 
 # Build rule for target.
@@ -556,6 +543,19 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named a
+
+# Build rule for target.
+a : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a
+.PHONY : a
+
+# fast build rule for target.
+a/fast:
+	$(MAKE) -f sync_kinects/CMakeFiles/a.dir/build.make sync_kinects/CMakeFiles/a.dir/build
+.PHONY : a/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -642,7 +642,6 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... kinect"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
@@ -663,6 +662,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... a"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_cpp"

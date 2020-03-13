@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src/sync_kinects/sync_kinects.cpp" "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/kinect.dir/sync_kinects.cpp.o"
+  "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/src/sync_kinects/sync_kinects.cpp" "/mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build/sync_kinects/CMakeFiles/a.dir/sync_kinects.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

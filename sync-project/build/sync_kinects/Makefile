@@ -166,21 +166,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-sync_kinects/CMakeFiles/kinect.dir/rule:
-	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f CMakeFiles/Makefile2 sync_kinects/CMakeFiles/kinect.dir/rule
-.PHONY : sync_kinects/CMakeFiles/kinect.dir/rule
-
-# Convenience name for target.
-kinect: sync_kinects/CMakeFiles/kinect.dir/rule
-
-.PHONY : kinect
-
-# fast build rule for target.
-kinect/fast:
-	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/kinect.dir/build.make sync_kinects/CMakeFiles/kinect.dir/build
-.PHONY : kinect/fast
-
-# Convenience name for target.
 sync_kinects/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
 	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f CMakeFiles/Makefile2 sync_kinects/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : sync_kinects/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
@@ -481,6 +466,21 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+sync_kinects/CMakeFiles/a.dir/rule:
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f CMakeFiles/Makefile2 sync_kinects/CMakeFiles/a.dir/rule
+.PHONY : sync_kinects/CMakeFiles/a.dir/rule
+
+# Convenience name for target.
+a : sync_kinects/CMakeFiles/a.dir/rule
+
+.PHONY : a
+
+# fast build rule for target.
+a/fast:
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/a.dir/build.make sync_kinects/CMakeFiles/a.dir/build
+.PHONY : a/fast
+
+# Convenience name for target.
 sync_kinects/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
 	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f CMakeFiles/Makefile2 sync_kinects/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : sync_kinects/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
@@ -561,7 +561,7 @@ sync_kinects.o: sync_kinects.cpp.o
 
 # target to build an object file
 sync_kinects.cpp.o:
-	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/kinect.dir/build.make sync_kinects/CMakeFiles/kinect.dir/sync_kinects.cpp.o
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/a.dir/build.make sync_kinects/CMakeFiles/a.dir/sync_kinects.cpp.o
 .PHONY : sync_kinects.cpp.o
 
 sync_kinects.i: sync_kinects.cpp.i
@@ -570,7 +570,7 @@ sync_kinects.i: sync_kinects.cpp.i
 
 # target to preprocess a source file
 sync_kinects.cpp.i:
-	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/kinect.dir/build.make sync_kinects/CMakeFiles/kinect.dir/sync_kinects.cpp.i
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/a.dir/build.make sync_kinects/CMakeFiles/a.dir/sync_kinects.cpp.i
 .PHONY : sync_kinects.cpp.i
 
 sync_kinects.s: sync_kinects.cpp.s
@@ -579,7 +579,7 @@ sync_kinects.s: sync_kinects.cpp.s
 
 # target to generate assembly for a file
 sync_kinects.cpp.s:
-	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/kinect.dir/build.make sync_kinects/CMakeFiles/kinect.dir/sync_kinects.cpp.s
+	cd /mnt/workspace/ros-sync/Synthetic-Pipeline/sync-project/build && $(MAKE) -f sync_kinects/CMakeFiles/a.dir/build.make sync_kinects/CMakeFiles/a.dir/sync_kinects.cpp.s
 .PHONY : sync_kinects.cpp.s
 
 # Help Target
@@ -594,7 +594,6 @@ help:
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... kinect"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
@@ -615,6 +614,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... a"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_cpp"
